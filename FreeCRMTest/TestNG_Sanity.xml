@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Free CRM Application Test Suite - Sanity" thread-count="1" parallel="methods">
+	<test name="free CRM Application Test Cases">
+		<classes>
+			<class name="com.crm.qa.test.LoginPageTest"></class>
+			<class name="com.crm.qa.test.HomePageTest"></class>
+			<class name="com.crm.qa.test.ContactsPageTest"></class>
+		</classes>
+	</test>
+</suite>
